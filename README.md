@@ -3,7 +3,7 @@
 The bulk of this technical exercise is lovingly stolen from @davezuko's react-redux-starter-kit project.
 All credit and respect duly given.
 
-The task is to build a schema-derived form-building module using React and interacting a bit with Redux.  The schema is provided in the `src/routes/Forms/components` folder, and is already included for you in `src/routes/Forms/components/Form.js` file, which is loaded on the `localhost:3000/forms` URL.  Build a module which will take the schema and build a form system based on it.  Pay extra attention to conditional display (`criteria`) and `description` help-text to be shown.
+The task is to build a schema-derived form-building module using React and interacting a bit with Redux.  The schema is provided in the `src/routes/Forms/components` folder, and is already included for you in `src/routes/Forms/components/Form.js` file, which is loaded on the `localhost:3000/forms` URL.  Build a module which will take the schema and build a form system based on it.  Pay extra attention to conditional display (`criteria`) and `description` help-text to be shown.  No extra credit will be given for styling, so target your time spent wisely.  Most of a developer's time is spent reading and writing code, and we would like to see thoughtfulness more than mastery of CSS.
 
 The Forms application structure is based on the `Counter` structure, which you can still refer back to in this repo for suggestions.
 
