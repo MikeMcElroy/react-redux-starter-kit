@@ -7,6 +7,8 @@ The task is to build a schema-derived form-building module using React and inter
 
 The Forms application structure is based on the `Counter` structure, which you can still refer back to in this repo for suggestions.
 
+Submissions can be made via forked Github repo or gzip of the modified files.
+
 The remainder of the README is copied verbatim from the original repo.
 ==================================================================================================
 
