@@ -1,0 +1,56 @@
+[
+  {
+    "name": "lorem",
+    "label": "Field 1",
+    "type": "text"
+  },
+  {
+    "name": "ipsum",
+    "label": "Field 2",
+    "defaultValue": "foobar",
+    "type": "text"
+  },
+  {
+    "name": "dolor",
+    "label": "Next Field",
+    "defaultValue": 3,
+    "max": 1,
+    "min": 10,
+    "step": 1,
+    "type": "number"
+  },
+  {
+    "name": "sit",
+    "label": "Multi-choice Field",
+    "description": "Choose 'option 3' to see fields magically appear",
+    "options": [
+      {
+        "label": "option 1",
+        "value": "UUID-random-text"
+      },
+      {
+        "label": "option 2",
+        "value": "UUID-random-text-2"
+      },
+      {
+        "label": "option 3",
+        "value": "UUID-random-text-3"
+      }
+    ],
+    "defaultValue": "UUID-random-text-2",
+    "type": "select"
+  },
+  {
+    "name": "amet",
+    "label": "Conditional Field",
+    "criteria": [
+      {
+        "value": "sit",
+        "operand": "equal",
+        "criteria": "UUID-random-text-3"
+      }
+    ],
+    "defaultValue": "Option 3 is the best option",
+    "type": "text"
+  }
+]
