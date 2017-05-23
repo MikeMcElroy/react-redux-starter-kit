@@ -1,4 +1,14 @@
-# React Redux Starter Kit
+# Treasure Data Technical Exercise
+
+The bulk of this technical exercise is lovingly stolen from @davezuko's react-redux-starter-kit project.
+All credit and respect duly given.
+
+The task is to build a schema-derived form-building module using React and interacting a bit with Redux.  The schema is provided in the `src/routes/Forms/components` folder, and is already included for you in `src/routes/Forms/components/Form.js` file, which is loaded on the `localhost:3000/forms` URL.  Build a module which will take the schema and build a form system based on it.  Pay extra attention to conditional display (`criteria`) and `description` help-text to be shown.
+
+The Forms application structure is based on the `Counter` structure, which you can still refer back to in this repo for suggestions.
+
+The remainder of the README is copied verbatim from the original repo.
+==================================================================================================
 
 [![Build Status](https://travis-ci.org/davezuko/react-redux-starter-kit.svg?branch=master)](https://travis-ci.org/davezuko/react-redux-starter-kit?branch=master)
 [![dependencies](https://david-dm.org/davezuko/react-redux-starter-kit.svg)](https://david-dm.org/davezuko/react-redux-starter-kit)
